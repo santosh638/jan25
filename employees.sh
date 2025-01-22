@@ -14,5 +14,3 @@
 #
 #     # Read and filter employees
 #     awk -F'\t' 'NR > 1 && $3 > 40 { print $1 }' "$EMPLOYEE_FILE"
-
-testing git pull
